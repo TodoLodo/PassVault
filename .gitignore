@@ -1,0 +1,42 @@
+# Ignore build directory
+/build/
+!/build/.keep       # (Optional) keep the folder itself if needed
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug & profiling files
+*.pdb
+*.idb
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Editor & OS junk
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite temp files
+*.sqlite-journal
+*.sqlite-shm
+*.sqlite-wal
